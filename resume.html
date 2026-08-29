@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #020d1e;
+      color: #333;
+    }
+    .container {
+      width: 80%;
+      margin: 40px auto;
+      background: #849299;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      padding: 30px;
+      border-radius: 10px;
+    }
+    header {
+      text-align: center;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      color: #3498db;
+    }
+    header p {
+      color: #555;
+    }
+    .columns {
+      display: flex;
+      gap: 40px;
+      margin-top: 20px;
+    }
+    .left, .right {
+      flex: 1;
+    }
+    h2 {
+      color: #3498db;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #3498db;
+      font-weight: bold;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Bhavna Sahu</h1>
+      <p>Email: sahubhavna@gmail.com | Phone: +91-9876543210</p>
+    </header>
+
+    <div class="columns">
+      <!-- Left Column -->
+      <div class="left">
+        <section class="section">
+          <h2>Objective</h2>
+          <p>To leverage my technical and analytical skills in software development and contribute to innovative projects that solve real-world problems.</p>
+        </section>
+
+        <section class="section">
+          <h2>Education</h2>
+          <p>B.Tech in Information Technology, XYZ University (2022)</p>
+        </section>
+
+        <section class="section">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, C++</li>
+            <li>Git & GitHub</li>
+            <li>Problem Solving & Algorithms</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- Right Column -->
+      <div class="right">
+        <section class="section">
+          <h2>Projects</h2>
+          <h3>Portfolio Website</h3>
+          <p>Designed and deployed a personal portfolio using HTML, CSS, and GitHub Pages.</p>
+          <h3>Library Management System</h3>
+          <p>Developed a C++ application to manage book records, borrowing, and returns.</p>
+        </section>
+
+        <section class="section">
+          <h2>Certifications</h2>
+          <ul>
+            <li>Python Programming – Coursera</li>
+            <li>Web Development Fundamentals – Udemy</li>
+            <li>Git & GitHub Essentials – LinkedIn Learning</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>Achievements</h2>
+          <ul>
+            <li>Secured 1st place in University Coding Hackathon (2021)</li>
+            <li>Published a research paper on AI in Education in XYZ Journal</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
